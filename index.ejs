@@ -1,0 +1,200 @@
+<%-include partials/header.ejs %> 
+<%-include partials/main_nav.ejs %> 
+
+<!-- for home page main content -->
+
+<% if(title == "Home"){ %> 
+  
+  <main class="container">
+    
+      <div class="services">
+        <h1 ><u> <b>Welcome to <%= title %> page</u></b></h1>
+      
+    
+    <div style="padding-top: 20px;">
+      Welcome everyone to my Personal Homepage. <br>
+      This is something like my virtual presence. <br> 
+      
+      I am really happy to know that you dropped by my webpage to know more about me.
+      You can <a href="/about">click here</a> to know more about me.
+      <br><br><br>
+   
+     <h3> <strong> <u>Mission Statement </u></strong> <br><br></h3>
+      
+      As a computer science student, I am passionate about programming and design. <br>
+      I am interested in working for a company that would make utilization of my potential. <br>
+      I am open to work from any location.
+    </div>
+      </div>
+
+  </main>
+  <% } %> 
+
+
+  <!-- for about page main content -->
+  <% if(title == "About"){ %>
+  <main class= "container mt-3">
+    <section id="intro" class="d-flex justify-content-sm-center align-items-center flex-column-reverse gap-10 flex-md-row">
+  <!--intro-->
+  <div class="d-flex justify-content-sm-center align-items-center flex-column mt-3 mr-2 align-items-md-start">
+    <h5>Hi! 🤚 </h5>
+    <h1>I'm Manik Chhetri</h1>
+    <p><b> I am from Kathmandu, Nepal. I am currently living in Toronto, Canada. My course name is Software Engineering Technician. It is a 2 years diploma course. My course is currently delivered online because of the COVID situation. I hope that my next semester( semester4) will be taught by conducting physical classes. Currently, I don't have any work experience in my field. I hope that this course- Web Application Development will help me to get better placement in near future.</b></p>
+    <a href="/Assets/resume.pdf"><button class="btn btn-primary btn-sm"><b>My Cool resume</b></button></a>
+  </div>
+  <div class="d-md-none w-100 h-150">
+    <img src="/Assets/images/manik.jpg" alt="image" class="w-100 h-100 rounded-circle shadow-lg">
+  </div>
+  <div class="d-none d-md-block w-50 h-75">
+    <img src="/Assets/images/manik.jpg" alt="image" class="w-100 h-100 rounded-circle shadow-lg">
+  </div>
+       </section>
+  
+  
+ 
+  </main>
+  <% } %> 
+
+  <!-- for project page -->
+
+  <% if(title == "Project"){ %>
+
+    <div class="container">
+        <div class="services">
+          <h2><u><b>My Projects </b></u></h2>
+        </div>
+      <div class="row">
+        <div class="col-sm-4 ">
+          <div class="card mt-5 h-100" >
+            <img src="/Assets/images/funclub.png" class="card-img-top" alt="funclub.png">
+            <div class="card-body">
+              <p><b><u>Funclub</u></b></p>
+              <p class="card-text">Funclub is a website app where online games and tournaments are hosted every weekend and winner get many exciting prizes. To register in funlcub you have to pay the registration fee which is $50 and registration is super easy. After you register in funclub, we will send you the verification link to verify the client.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mt-5 h-100" >
+            <img src="/Assets/images/goblin.png" class="card-img-top" alt="goblin.png">
+            <div class="card-body">
+              <p><b><u>Goblin Smasher</u></b></p>
+              <p class="card-text">Goblin Smasher is a flash type of game, where your score get incresed when you catch goblin. You can reset the speed of goblin too.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card mt-5 h-100" >
+            <img src="/Assets/images/weather.png" class="card-img-top" alt="weather.png">
+            <div class="card-body">
+              <p><b> <u>Weather App</u></b></p>
+              <p class="card-text">Weather app shows the weather information of the location inputted in show weather box. It shows the detailed information of that place. Apart rom that, it also show your location weather when you click "get my location" button and shows your location in google map when you allow google to know your location.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+    
+
+    <% } %> 
+
+    <!-- for service main content -->
+    <% if(title == "Service"){ %>
+
+
+    <div class="container">
+      <div class="services">
+        <h2><u><b>My Services </b></u></h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente alias officiis odio, aliquam reiciendis a! Architecto, error? Necessitatibus, excepturi quia! Nobis aut quos, minima animi quia dolor sint unde mollitia?</p>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>Graphics Designing</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente alias officiis odio, aliquam reiciendis a! Architecto, error? Necessitatibus, excepturi quia! Nobis aut quos, minima animi quia dolor sint unde mollitia?</p>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>App Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente alias officiis odio, aliquam reiciendis a! Architecto, error? Necessitatibus, excepturi quia! Nobis aut quos, minima animi quia dolor sint unde mollitia?</p>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>General Programming</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente alias officiis odio, aliquam reiciendis a! Architecto, error? Necessitatibus, excepturi quia! Nobis aut quos, minima animi quia dolor sint unde mollitia?</p>
+        </div>
+      </div>
+    </div>
+
+    <% } %> 
+
+    <!-- for contact page -->
+    <% if(title == "Contact"){ %>
+      <div class="container">
+        <div class="services">
+          <h2><u><b>Contact Us</b></u></h2>
+        </div>
+
+        <div class="container1">
+          <form action="">
+            
+            
+            <h3 class="sub-heading1">Contact Information</h3>
+            <hr>
+            <p>Name <input type="text" name="name" required placeholder="Manik Chhetri" /></p>
+            
+            
+            <p>Email <input type="email" name="email" id="email" required placeholder="example123@gmail.com"></p>
+            
+            Contact Number <input type="number" name="cardno" id="cardno" required placeholder="+01-3455567">
+            Address <textarea name="address" id="address" cols="30" rows="2" placeholder="Enter your Address" ></textarea>
+                
+               <a href="/home"><input type="submit" value="Submit"></a> 
+            </p>
+          </form>
+        </div>
+    
+    
+      </div>
+
+      <% } %> 
+
+  <%-include partials/bottom_nav.ejs %> 
+  <%-include partials/footer.ejs %>   
+
+  
+  
+
+
+  
+
+
+
+
+
+
+
+
+

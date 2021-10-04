@@ -1,0 +1,102 @@
+/* custome css goes here 
+Student ID : 301172984
+Name: Manik Ratna Budha Chhetri
+Course Name: Web Application Development(COMP229)
+Semester:3 */
+/* custom CSS goes here */
+
+*{
+  box-sizing: border-box;
+}
+
+.services{
+margin: 20px auto;
+text-align: center;
+}
+
+h1{
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+h1::after{
+  content: '';
+  background: white;
+  display: block;
+  width: 150px;
+  height: 3px;
+  margin: 10px auto;
+}
+
+.icon{
+  font-size: 35px;
+  margin: 30px auto;
+  padding: 10px;
+  height: 40px;
+  width: 80px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.col-md-3:hover{
+  box-shadow: 5px 7px 9px -3px;
+  cursor: pointer;
+}
+
+.col-sm-4:hover{
+  box-shadow: 5px 7px 9px -3px;
+  cursor: pointer;
+}
+
+
+
+
+
+.container1{
+  
+  padding: 10px;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+}
+input[type="text"],
+input[type="email"]
+
+{
+ width: 100%;
+ padding: 10px;
+ margin: 5px;
+ border:1px solid white ;
+ border-radius: 4px; 
+}
+input[type="number"],
+textarea{
+  width: 40%;
+  padding: 10px;
+  margin: 5px;
+  border:1px solid white ;
+  border-radius: 4px; 
+}
+fieldset{
+  background-color: white;
+  border: 1px solid #ccc;
+}
+.main-heading{
+  text-align: center;
+}
+input[type="submit"]{
+ background-color:#4daea1;
+ padding: 10px;
+ border: none;
+ border-radius: 4px;
+ width: 100%;
+ font-size: 20px;
+ color: white;
+ cursor:pointer;
+}
+
+input[type="submit"]:hover{
+  background-color:#4caf84 ;
+}
+
+
+
+
